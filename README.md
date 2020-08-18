@@ -8,6 +8,8 @@ Material Theme Icons
 
 ## C/C++
 
+C/C++
+
 ## Markdown
 
 Markdownlint
