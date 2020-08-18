@@ -3,6 +3,7 @@
 ## Theme
 
 Material Theme
+
 Material Theme Icons
 
 ## C/C++
@@ -22,6 +23,9 @@ Ruby Solargraph
 ## Rust
 
 Better TOML
+
 CodeLLDB
+
 crates
+
 rust-analyzer
