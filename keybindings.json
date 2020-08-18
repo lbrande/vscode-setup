@@ -1,0 +1,252 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Navigation
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "shift+escape",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "shift+escape",
+        "command": "workbench.action.togglePanel",
+        "when": "panelFocus"
+    },
+    {
+        "key": "shift+escape",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.view.explorer",
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.terminal.focus",
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.output.toggleOutput",
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.debug.action.toggleRepl",
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.view.debug",
+    },
+    {
+        "key": "alt+6",
+        "command": "workbench.action.problems.focus",
+    },
+    {
+        "key": "alt+7",
+        "command": "outline.focus",
+    },
+    {
+        "key": "alt+9",
+        "command": "workbench.view.scm",
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.showAllSymbols",
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.quickOpen",
+    },
+    {
+        "key": "ctrl+shift+alt+n",
+        "command": "workbench.action.gotoSymbol",
+    },
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus",
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor",
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "editor.action.goToTypeDefinition",
+        "when": "editorHasTypeDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
+    },
+    {
+        "key": "ctrl+i",
+        "command": "references-view.find",
+        "when": "editorHasReferenceProvider"
+    },
+
+    // Misc
+    {
+        "key": "ctrl+p",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "workbench.action.splitEditorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "workbench.action.splitEditorRight",
+        "when": "editorTextFocus"
+    },
+
+    // Editing
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly",
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly",
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly",
+    },
+    {
+        "key": "ctrl+k",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+
+    // Selection
+    {
+        "key": "ctrl+w",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus",
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus",
+    },
+    
+    // Folding
+    {
+        "key": "ctrl+-",
+        "command": "editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "editor.foldRecursively",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    
+    // Debugging
+    {
+        "key": "ctrl+5",
+        "command": "workbench.action.debug.continue",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "ctrl+alt+5",
+        "command": "workbench.action.debug.run"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+alt+5",
+        "command": "workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "workbench.action.debug.pause",
+        "when": "debugState == 'running'"
+    },
+    {
+        "key": "ctrl+7",
+        "command": "workbench.action.debug.stepOver",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "workbench.action.debug.stepInto",
+        "when": "debugState != 'inactive'"
+    },
+    {
+        "key": "ctrl+shift+8",
+        "command": "workbench.action.debug.stepOut",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "editor.debug.action.toggleBreakpoint",
+        "when": "editorTextFocus"
+    },
+
+    // Rust
+    {
+        "key": "ctrl+6",
+        "command": "rust-analyzer.debug",
+        "when": "editorTextFocus && !inDebugMode && editorLangId == 'rust'"
+    },
+    {
+        "key": "ctrl+alt+6",
+        "command": "rust-analyzer.run",
+        "when": "editorTextFocus && editorLangId == 'rust'"
+    }
+]

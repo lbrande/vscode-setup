@@ -1,0 +1,47 @@
+{
+    // Theme
+    "workbench.colorTheme": "Material Theme Darker",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ffff00",
+        "editorWarning.border": "#ffff00",
+        "editorOverviewRuler.warningForeground": "#ffff00",
+        "editorError.foreground": "#ff0000",
+        "editorError.border": "#ff0000",
+        "editorOverviewRuler.errorForeground": "#ff0000"
+    },
+    "editor.minimap.enabled": false,
+
+    // Misc
+    "files.autoSave": "afterDelay",
+    "keyboard.dispatch": "keyCode",
+
+    // C/C++
+    "C_Cpp.clang_format_style": "Google",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+
+    // Java
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.semanticHighlighting.enabled": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+    // Ruby
+    "solargraph.formatting": true,
+    "[ruby]": {
+        "editor.defaultFormatter": "castwide.solargraph"
+    },
+
+    // Rust
+    "rust-analyzer.checkOnSave.command": "clippy",
+
+    // 18xx
+    "files.watcherExclude": {
+        "/home/lbrande/18xx-maker/**": true,
+        "/home/lbrande/games/**": true
+    }
+}
