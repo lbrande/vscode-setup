@@ -11,6 +11,9 @@
         "editorOverviewRuler.errorForeground": "#ff0000"
     },
     "editor.minimap.enabled": false,
+    "editor.fontFamily": "'FiraCode Nerd Font Mono'",
+    "editor.fontLigatures": true,
+    "disableLigatures.mode": "Cursor",
 
     // Misc
     "files.autoSave": "afterDelay",

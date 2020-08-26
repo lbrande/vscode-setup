@@ -6,6 +6,8 @@ Material Theme
 
 Material Theme Icons
 
+Disable Ligatures
+
 ## C/C++
 
 C/C++

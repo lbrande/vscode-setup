@@ -7,10 +7,6 @@
     },
     {
         "key": "shift+escape",
-        "command": "workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "shift+escape",
         "command": "workbench.action.togglePanel",
         "when": "panelFocus"
     },
