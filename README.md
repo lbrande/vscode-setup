@@ -20,6 +20,10 @@ Markdownlint
 
 Java Extension Pack
 
+## Python
+
+Python
+
 ## Ruby
 
 Ruby Solargraph
