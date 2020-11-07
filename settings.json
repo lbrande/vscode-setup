@@ -1,5 +1,4 @@
 {
-    // Theme
     "workbench.colorTheme": "Material Theme Darker",
     "workbench.iconTheme": "eq-material-theme-icons-darker",
     "workbench.colorCustomizations": {
@@ -52,5 +51,5 @@
     "files.watcherExclude": {
         "/home/lbrande/18xx-maker/**": true,
         "/home/lbrande/games/**": true
-    }
+    },
 }
