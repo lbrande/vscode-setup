@@ -6,12 +6,12 @@
         "command": "workbench.action.focusActiveEditorGroup"
     },
     {
-        "key": "shift+escape",
+        "key": "ctrl+escape",
         "command": "workbench.action.togglePanel",
         "when": "panelFocus"
     },
     {
-        "key": "shift+escape",
+        "key": "ctrl+escape",
         "command": "workbench.action.toggleSidebarVisibility",
         "when": "sideBarFocus"
     },
@@ -61,18 +61,26 @@
     },
     {
         "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
         "command": "editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus",
+        "when": "editorHasDefinitionProvider",
     },
     {
         "key": "ctrl+alt+b",
         "command": "editor.action.goToImplementation",
-        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor",
+        "when": "editorHasImplementationProvider",
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
     },
     {
         "key": "ctrl+shift+b",
         "command": "editor.action.goToTypeDefinition",
-        "when": "editorHasTypeDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
+        "when": "editorHasTypeDefinitionProvider",
     },
     {
         "key": "ctrl+i",
